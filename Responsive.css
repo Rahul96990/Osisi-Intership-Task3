@@ -1,0 +1,267 @@
+@media screen and (max-width:1024px) {
+
+     .container {
+          width: 50%;
+          padding: 10px 14px;
+     }
+
+     h2{
+          font-size: 38px;
+     }
+
+     h1{
+          font-size: 16px;
+          padding: 7px;
+        }
+        
+        input[type="text"] {
+          width: 80%;
+          height: 45px;
+          font-size: 19px;
+        }
+
+        button{
+          padding: 12px 10px;
+        }
+
+        span{
+          width: 70%;
+          font-size: 18px;
+        }
+
+        input[type="checkbox"]{
+          height: 18px;
+          width: 18px;
+        }
+        
+        .task-item button {
+          padding: 7px 10px;
+          font-size: 14px;
+        }
+        .task-item button:hover{
+          border-radius: 10px;
+        }
+
+        #pendingTasks,
+#completedTasks{
+  margin-top: 10px;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+
+}
+@media screen and (max-width:768px) {
+
+     .container {
+          width: 65%;
+          padding: 10px 14px;
+     }
+
+     h2{
+          font-size: 40px;
+     }
+
+     h1{
+          font-size: 17px;
+          padding: 10px;
+        }
+        
+        input[type="text"] {
+          width: 80%;
+          height: 50px;
+          font-size: 19px;
+        }
+
+        button{
+          padding: 14px 10px;
+        }
+
+        span{
+          padding: 5px 10px;
+          width: 70%;
+          font-size: 18px;
+        }
+
+        input[type="checkbox"]{
+          height: 18px;
+          width: 18px;
+        }
+        
+        .task-item button {
+          padding: 7px 13px;
+          font-size: 17px;
+        }
+        .task-item button:hover{
+          border-radius: 10px;
+        }
+        .task-item {
+          padding: 9px;
+        }
+
+        #pendingTasks,
+#completedTasks{
+  margin-top: 10px;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+
+}
+@media screen and (max-width:440px) {
+
+     .container {
+          width: 95%;
+           margin-top: 40px;
+     }
+
+     h1{
+          font-size: 17px;
+          padding: 7px;
+        }
+        
+        input[type="text"] {
+          width: 69%;
+          height: 40px;
+          font-size: 17px;
+        }
+
+        button{
+          padding: 10px 15px;
+        }
+
+        span{
+          padding: 5px 10px;
+          width: 70%;
+          font-size: 15px;
+        }
+
+        input[type="checkbox"]{
+          height: 18px;
+          width: 18px;
+        }
+        
+        .task-item button {
+          padding: 7px 10px;
+          font-size: 14px;
+        }
+        .task-item button:hover{
+          border-radius: 10px;
+        }
+        .task-item {
+          padding: 6px;
+        }
+
+}
+
+@media screen and (max-width:376px) {
+
+     .container {
+          width: 97%;
+          padding: 10px 14px;
+     }
+
+     h2{
+          font-size: 38px;
+     }
+
+     h1{
+          font-size: 16px;
+          padding: 7px;
+        }
+        
+        input[type="text"] {
+          width: 69%;
+          height: 40px;
+          font-size: 17px;
+        }
+
+        button{
+          padding: 9px 10px;
+        }
+
+        span{
+          padding: 5px 10px;
+          width: 70%;
+          font-size: 15px;
+        }
+
+        input[type="checkbox"]{
+          height: 18px;
+          width: 18px;
+        }
+        
+        .task-item button {
+          padding: 7px 10px;
+          font-size: 14px;
+        }
+        .task-item button:hover{
+          border-radius: 10px;
+        }
+        .task-item {
+          padding: 6px;
+        }
+
+        #pendingTasks,
+#completedTasks{
+  margin-top: 10px;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+
+}
+
+@media screen and (max-width:321px) {
+
+     .container {
+          width: 97%;
+          padding: 10px 14px;
+     }
+
+     h2{
+          font-size: 35px;
+     }
+
+     h1{
+          font-size: 13px;
+          padding: 7px;
+        }
+        
+        input[type="text"] {
+          width: 65%;
+          height: 40px;
+          font-size: 17px;
+        }
+
+        button{
+          padding: 9px 10px;
+        }
+
+        span{
+          padding: 5px 10px;
+          width: 70%;
+          font-size: 15px;
+        }
+
+        input[type="checkbox"]{
+          height: 18px;
+          width: 18px;
+        }
+        
+        .task-item button {
+          padding: 7px 10px;
+          font-size: 14px;
+        }
+        .task-item button:hover{
+          border-radius: 10px;
+        }
+        .task-item {
+          padding: 6px;
+        }
+
+        #pendingTasks,
+#completedTasks{
+  margin-top: 10px;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+
+}

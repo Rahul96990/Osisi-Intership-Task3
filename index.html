@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+</head>
+
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./Responsive.css">
+
+<body>
+    <div class="container">
+        <h2>ToDo App</h2>
+        <input type="text" id="taskInput" placeholder="Enter Task...">
+        <button onclick="addTask()">Add Task</button>
+
+        <div class="task-status">
+            <div class="heading-status">
+                <h1 class="pendingTasks active">Pending Task</h1>
+                <h1 class="completedTasks">Completed Task</h1>
+            </div>
+            <ul id="pendingTasks" class="task-list">
+
+            </ul>
+            <ul id="completedTasks" class="task-list"></ul>
+
+        </div>
+
+        <h4 class="empty">You Todo List Is Empty. Add Today's List</h4>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

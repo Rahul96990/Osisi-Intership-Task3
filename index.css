@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#ded1fe,#2902ab);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 40%;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 13px 20px;
+  border: none;
+  background-color: #3747bd;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #12169f;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.heading-status{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid red;
+  border-radius: 20px;
+  background-color: #3275e0;
+}
+
+span{
+  text-align: left;
+  padding: 5px 10px;
+  width: 70%;
+  font-size: 20px;
+  max-height: fit-content;
+  color: rgb(0, 0, 0);
+}
+
+h1{
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+h1.pendingTasks{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+h1.completedTasks{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h1:hover{
+  background-color: #333af1;
+  color: white;
+}
+
+h1.active{
+  background-color: #12169f;
+  color: white;
+}
+
+
+
+input[type="checkbox"]{
+  height: 20px;
+  cursor: pointer;
+  width: 20px;
+}
+
+.task-item {
+  margin-bottom: 5px;
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid blue;
+  background-color: #cee0f8;
+}
+
+.task-item.completed {
+  background-color: #b6e0a7;
+  border: 1px solid green;
+}
+
+.task-item button {
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  padding:10px 15px;
+  transition: .2s ease-in-out;
+}
+
+.task-item button:hover {
+  background-color: rgb(251, 6, 6);
+  border-radius: 15px;
+}
+
+#pendingTasks,
+#completedTasks{
+  margin-top: 10px;
+  max-height: 470px;
+  overflow-y: scroll;
+}
+
+#pendingTasks::-webkit-scrollbar,
+#completedTasks::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 10px;
+}
+
+#pendingTasks::-webkit-scrollbar-thumb,
+#completedTasks::-webkit-scrollbar-thumb{
+  width: 13px;
+  border-radius: 10px;
+  background-color: rgb(17, 0, 255);
+}
+
+
+#completedTasks{
+  display: none;
+}
+
+h4{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 19px;
+  font-style: italic;
+  font-family: cursive;
+  display: none;
+}
